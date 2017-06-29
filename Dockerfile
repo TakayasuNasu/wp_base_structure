@@ -3,11 +3,9 @@ FROM wordpress:4.8.0-php7.1-apache
 
 # 必要なツール郡をインストール
 RUN apt-get update
-RUN apt-get -y install wget unzip vim
-
-# .vimrc
-WORKDIR ~/
-RUN echo syntax on >> .vimrc
+RUN apt-get -y install wget unzip vim \
+  && echo "syntax on " >> $HOME/.vimrc \
+  && echo "set number " >> $HOME/.vimrc
 
 # WP プラグイン (zip) ダウンロード
 WORKDIR /tmp/wp-plugins
