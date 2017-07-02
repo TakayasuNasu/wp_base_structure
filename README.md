@@ -15,3 +15,8 @@ then you can run below command to start docker container.
 ```
 $docker-compose -p test up -d
 ```
+
+There is dummy data in `db-data/theme-test-data-ja`.  
+If you need you can use it from `Tool>import>WordPress`  
+'db-data/theme-test-data-ja'にダミー用のデータがあるので、必要なら  
+管理画面のツール->インポートの「WordPress」からインポートして使ってください。  
