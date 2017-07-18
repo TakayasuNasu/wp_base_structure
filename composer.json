@@ -1,0 +1,26 @@
+{
+    "name": "TakayasuNasu/wp_base_structure",
+    "description": "wp base structure",
+    "repositories":[
+    {
+        "type":"composer",
+        "url":"https://wpackagist.org"
+    }
+    ],
+    "require": {
+        "wpackagist-plugin/smarty-for-wordpress": "3.1.30.1",
+        "wpackagist-plugin/duplicate-post": "3.2",
+        "wpackagist-plugin/intuitive-custom-post-order": "3.1.0",
+        "wpackagist-plugin/wp-media-library-categories": "1.5.6",
+        "wpackagist-plugin/wp-media-library-categories": "1.5.6",
+        "wpackagist-plugin/custom-post-type-ui": "1.5.4",
+        "wpackagist-plugin/advanced-custom-fields": "4.4.11",
+        "wpackagist-plugin/custom-post-type-permalinks": "3.1.3"
+
+        },
+    "autoload": {
+        "psr-0": {
+            "Acme": "src/"
+        }
+    }
+}

@@ -12,6 +12,7 @@ build
 .idea
 
 .env
+composer.lock
 /vendor
 /wp-content/*
 !/wp-content/themes
