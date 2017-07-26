@@ -20,3 +20,5 @@ composer.lock
 /wp-content/themes/twentyfifteen
 /wp-content/themes/twentyseventeen
 /wp-content/themes/twentysixteen
+/wp-content/themes/_s/.views_cache
+/wp-content/themes/_s/views/cache
