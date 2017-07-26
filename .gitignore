@@ -14,6 +14,7 @@ build
 .env
 composer.lock
 /vendor
+/node_modules
 /wp-content/*
 !/wp-content/themes
 /wp-content/themes/twentyfifteen

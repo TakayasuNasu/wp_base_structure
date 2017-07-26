@@ -1,0 +1,19 @@
+{
+  "name": "nasu_medix",
+  "version": "1.0.0",
+  "description": "npm-scripts",
+  "scripts": {
+    "all": "yarn run watch-css",
+    "build-css": "node-sass --include-path scss wp-content/themes/_s/sass/style.scss wp-content/themes/_s/style.css --output-style expanded --importer node_modules/node-sass-import --source-map wp-content/themes/_s/",
+    "watch-css": "nodemon -L -e scss -x \"yarn run build-css \""
+  },
+  "author": "nasu_medix",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.7.7",
+    "node-sass": "^4.5.0",
+    "node-sass-import": "^1.1.1",
+    "nodemon": "^1.11.0",
+    "postcss-cli": "^3.1.1"
+  }
+}
