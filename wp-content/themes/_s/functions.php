@@ -141,3 +141,9 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+require_once $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php';
+$blade = TorMorten\View\Blade::create();
+add_action('after_setup_theme', function() {
+  add_theme_support('blade-templates');
+});
